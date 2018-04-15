@@ -1,0 +1,80 @@
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="web.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>ABOUT</title>
+<meta name="description" content="Write some words to describe your html page">
+</head>
+<body>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.google.co.uk/" target="_blank" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a> 
+  <a href="mailto:kwasiappiahdanquah@gmail.com"><i class="fa fa-envelope"></i></a> 
+</div>
+<div class="blended_grid">
+<div class="pageHeader">
+<ul>
+<li><a href="Home.html">HOME</a></li>
+<li><a href="About.html">ABOUT</a></li>
+<li><a href="Project.html">PROJECTS</a></li>
+<li><a href="Contact.html">CONTACT</a></li>
+</ul>
+</div>
+<div class="pageLeftMenu">
+
+</div>
+<div class="pageContent">
+<div class="background">
+<h1><u>Background and History</u></h1>
+<p>I am a <abbr title="Bachelor of Science">BSc</abbr> (Honours) in Computing Graduate with knowledge in the topics: Programming, Web Development, Software Engineering among other topics. I am looking forward to utilizing and further developing my technical skills </p>
+</div>
+
+<div class="background">
+<h2><u>Curriculum Vitae</u></h2>
+<button class="collapsible">Technical Skills:</button>
+<div class="content">
+  <li>Possess decent working knowledge in Network support and security.</li>
+  <li>Familiar with, and possess good working knowledge of wireless networks and network monitoring tools such as Packet Tracer,etc.</li>
+  <li>Excellent in the Installation and customization of various software packages such as Microsoft offiice, Windows operating systems,etc.</li>
+  <li>Good at Software Systems design using Case Tools, software testing methodologies and Requirements Gathering Methodologies</li>
+  <li>Possess good programming skills in languages such Java/ SeL, Visual Paradigm, NetBeans, PHP, CSS, JavaScript, HTML and development tools such AS MMPP</li>
+</div>
+<button class="collapsible">Education & Qualifications:</button>
+<div class="content">
+  <li>Bucks New University, UK, BSc (Hons) Computing: September 20l4-September 2015</li>
+  <li>Bournemouth University, UK: September 2012-November 2014</li>
+</div>
+<button class="collapsible">Languages:</button>
+<div class="content">
+  <li>English </li>
+  <br>
+  <li> Twi </li> 
+</div>
+</div>
+</div>
+<div class="pageFooter">
+<footer>&copy; 2018 All Rights Reserved <a href="tel:0558271102">0558271102</a></footer>
+
+</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
